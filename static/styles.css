@@ -1,0 +1,102 @@
+/* styles.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.dashboard {
+  margin-top: 20px;
+}
+
+/* Add styling for the chat messages container */
+.chat-panel {
+  max-height: 300px; /* Set a maximum height for the chat panel */
+  overflow-y: auto; /* Allow vertical scrolling */
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Style for the tabs */
+div[data-tab] {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Style for the text input */
+div[data-type="widget"][data-widget="TextInput"] input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* Style for the buttons */
+div[data-type="widget"][data-widget="Button"] button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+div[data-type="widget"][data-widget="Button"][data-button-type="primary"]
+  button {
+  background-color: #007bff;
+}
+
+div[data-type="widget"][data-widget="Button"][data-button-type="warning"]
+  button {
+  background-color: #dc3545;
+}
+
+/* Style for the loading indicator */
+div[data-type="panel"][data-widget="ActivityIndicator"] {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style for the image pane */
+div[data-type="pane"][data-widget="Image"] img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Style for the markdown pane */
+div[data-type="pane"][data-widget="Markdown"] {
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.scrollable-content {
+  overflow: auto;
+  height: 100vh; /* Adjust this value as needed */
+}
