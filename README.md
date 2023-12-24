@@ -1,4 +1,5 @@
-# ChatWithYourData_Bot
+# CogniDoc Chatbot @Devspace
+# ChatWithYourData Bot
 
 ## Overview
 ChatWithYourData_Bot is a conversational chatbot that leverages a retrieval-augmented generation (RAG) approach. It uses a combination of document loading, splitting, storage, retrieval, and a conversational interface powered by OpenAI models. The goal is to enable users to have interactive conversations with their data, retrieving relevant information from loaded documents.
